@@ -33,7 +33,7 @@ const Nav = () => {
           <ul className="nav-links">
             <li className="nav-item">
               <Link
-                to="/product"
+                to=""
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -46,7 +46,7 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/features"
+                to=""
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -58,7 +58,7 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/benefits"
+                to=""
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -70,7 +70,7 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/testimonials"
+                to=""
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px"
@@ -83,7 +83,7 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/about-us"
+                to=""
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -95,7 +95,7 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/contact-us"
+                to=""
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
@@ -114,7 +114,7 @@ const Nav = () => {
               color:"#fafafa"
             }}>
               <Link
-                to="/login"
+                to=""
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
