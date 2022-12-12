@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+:root{
+  --darkblue: #191641;
+  --blue: #435cff;
+  --yellow: #f7cd61;
+  --white: #fafafa;
+  --grey: #595f6f;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* html,
+body {
+  background: #0d0d11;
+  color: #fff;
+} */
 
-.App-header {
-  background-color: #282c34;
+/* .DoYouKnow{
+    background: url(../src/assets/background.png) no-repeat center;
+    min-height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+    
+
+} */
+
+.Features{
+  background: var(--white);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  object-fit: cover;
+  background-size: cover;
+ 
+
 }
 
-.App-link {
-  color: #61dafb;
+.none{
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+::-webkit-scrollbar{
+  background-color: var(--yellow);
+  border: none;
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--blue);
+}
+
+@font-face {
+  font-family: "Bookerly";   /*Can be any text*/
+  src: local("Bookerly"),
+    url("./fonts/Bookerly.ttf") format("truetype");
 }

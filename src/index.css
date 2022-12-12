@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Bookerly";   /*Can be any text*/
+  src: local("Bookerly"),
+    url("./fonts/Bookerly.ttf") format("truetype");
+}
